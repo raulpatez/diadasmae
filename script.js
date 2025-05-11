@@ -25,10 +25,6 @@ document.getElementById("verificar").addEventListener("click", () => {
 function mostrarPremio() {
     document.getElementById("tela-presente").classList.add("escondido");
     document.getElementById("tela-premio").classList.remove("escondido");
-    setTimeout(() => {
-        document.getElementById("tela-premio").classList.add("escondido");
-        document.getElementById("tela-reacao").classList.remove("escondido");
-    }, 3000);
 }
 
 function irParaReacao() {
